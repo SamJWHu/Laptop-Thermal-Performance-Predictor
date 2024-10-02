@@ -72,13 +72,13 @@ output_scaler.fit(y_train[output_features])
 
 # Define new laptop specifications
 new_design = pd.DataFrame({
-    'cpu_tdp': [35],
-    'gpu_tdp': [85],
-    'total_tdp': [35 + 85],
+    'cpu_tdp': [30],
+    'gpu_tdp': [50],
+    'total_tdp': [35 + 50],
     'cooling_capacity': [3 + 2],
     'chassis_thermal_conductivity': [150],  # W/m·K
     'vent_area': [100],                     # cm²
-    'fan_blade_count': [9],
+    'fan_blade_count': [162],
     'ambient_temp': [25],                   # °C
     'heat_pipe_material': [401],            # W/m·K
     'fan_diameter': [60]                    # mm
