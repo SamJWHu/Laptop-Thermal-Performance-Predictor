@@ -848,7 +848,7 @@ input_features = [
 new_design = pd.DataFrame({
     'cpu_tdp': [30],
     'gpu_tdp': [50],
-    'total_tdp': [35 + 85],            # 120
+    'total_tdp': [30 + 50],            # 120
     'cooling_capacity': [3 + 2],       # 5
     'chassis_thermal_conductivity': [150],  # Mix of plastic and metal
     'vent_area': [100],                # Estimated in cm²
