@@ -90,7 +90,7 @@ add_laptop(
     temp_silent=40, temp_performance=45, temp_turbo=50,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=60,  # Estimated in cm²
-    fan_blade_count=7,  # Typical laptop fan
+    fan_blade_count=61,  # Typical laptop fan
     ambient_temp=25,
     heat_pipe_material=401,  # Copper
     fan_diameter=50  # Estimated in mm
@@ -106,7 +106,7 @@ add_laptop(
     temp_silent=42, temp_performance=47, temp_turbo=52,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=80,  # Estimated in cm²
-    fan_blade_count=7,
+    fan_blade_count=166,
     ambient_temp=25,
     heat_pipe_material=401,  # Copper
     fan_diameter=60  # Estimated in mm
@@ -123,7 +123,7 @@ add_laptop(
     temp_silent=38, temp_performance=43, temp_turbo=48,
     chassis_thermal_conductivity=50,  # Plastic with some metal parts
     vent_area=70,
-    fan_blade_count=7,
+    fan_blade_count=86,
     ambient_temp=25,
     heat_pipe_material=205,  # Aluminum
     fan_diameter=50
@@ -140,7 +140,7 @@ add_laptop(
     temp_silent=37, temp_performance=42, temp_turbo=47,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=60,
-    fan_blade_count=7,
+    fan_blade_count=87,
     ambient_temp=25,
     heat_pipe_material=401,  # Copper
     fan_diameter=45
@@ -157,7 +157,7 @@ add_laptop(
     temp_silent=36, temp_performance=41, temp_turbo=46,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=55,
-    fan_blade_count=7,
+    fan_blade_count=162,
     ambient_temp=25,
     heat_pipe_material=401,  # Copper
     fan_diameter=45
@@ -174,7 +174,7 @@ add_laptop(
     temp_silent=45, temp_performance=50, temp_turbo=55,
     chassis_thermal_conductivity=150,  # Mix of plastic and metal
     vent_area=100,
-    fan_blade_count=9,
+    fan_blade_count=114,
     ambient_temp=25,
     heat_pipe_material=401,  # Copper
     fan_diameter=60
@@ -191,7 +191,7 @@ add_laptop(
     temp_silent=39, temp_performance=44, temp_turbo=49,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=60,
-    fan_blade_count=7,
+    fan_blade_count=206,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=45
@@ -208,7 +208,7 @@ add_laptop(
     temp_silent=41, temp_performance=46, temp_turbo=51,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=80,
-    fan_blade_count=7,
+    fan_blade_count=222,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=50
@@ -226,7 +226,7 @@ add_laptop(
     temp_silent=38, temp_performance=43, temp_turbo=48,
     chassis_thermal_conductivity=50,  # Plastic with metal parts
     vent_area=70,
-    fan_blade_count=7,
+    fan_blade_count=214,
     ambient_temp=25,
     heat_pipe_material=205,  # Aluminum
     fan_diameter=50
@@ -244,7 +244,7 @@ add_laptop(
     temp_silent=44, temp_performance=49, temp_turbo=54,
     chassis_thermal_conductivity=150,  # Mix of plastic and metal
     vent_area=100,
-    fan_blade_count=9,
+    fan_blade_count=194,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=60
@@ -261,7 +261,7 @@ add_laptop(
     temp_silent=37, temp_performance=42, temp_turbo=47,
     chassis_thermal_conductivity=156,  # Magnesium alloy
     vent_area=60,
-    fan_blade_count=7,
+    fan_blade_count=162,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=45
@@ -278,7 +278,7 @@ add_laptop(
     temp_silent=38, temp_performance=43, temp_turbo=48,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=60,
-    fan_blade_count=7,
+    fan_blade_count=194,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=45
@@ -295,7 +295,7 @@ add_laptop(
     temp_silent=46, temp_performance=51, temp_turbo=56,
     chassis_thermal_conductivity=150,  # Mix of plastic and metal
     vent_area=110,
-    fan_blade_count=9,
+    fan_blade_count=174,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=60
@@ -312,7 +312,7 @@ add_laptop(
     temp_silent=37, temp_performance=42, temp_turbo=47,
     chassis_thermal_conductivity=50,  # Plastic
     vent_area=70,
-    fan_blade_count=7,
+    fan_blade_count=79,
     ambient_temp=25,
     heat_pipe_material=205,
     fan_diameter=50
@@ -330,7 +330,7 @@ add_laptop(
     temp_silent=36, temp_performance=41, temp_turbo=46,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=55,
-    fan_blade_count=7,
+    fan_blade_count=67,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=45
@@ -347,7 +347,7 @@ add_laptop(
     temp_silent=37, temp_performance=42, temp_turbo=47,
     chassis_thermal_conductivity=50,  # Plastic
     vent_area=70,
-    fan_blade_count=7,
+    fan_blade_count=109,
     ambient_temp=25,
     heat_pipe_material=205,
     fan_diameter=50
@@ -364,7 +364,7 @@ add_laptop(
     temp_silent=43, temp_performance=48, temp_turbo=53,
     chassis_thermal_conductivity=205,  # Aluminum-magnesium alloy
     vent_area=90,
-    fan_blade_count=9,
+    fan_blade_count=271,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=55
@@ -381,7 +381,7 @@ add_laptop(
     temp_silent=44, temp_performance=49, temp_turbo=54,
     chassis_thermal_conductivity=150,  # Mix of plastic and metal
     vent_area=100,
-    fan_blade_count=9,
+    fan_blade_count=194,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=60
@@ -398,7 +398,7 @@ add_laptop(
     temp_silent=38, temp_performance=43, temp_turbo=48,
     chassis_thermal_conductivity=205,  # Aluminum
     vent_area=60,
-    fan_blade_count=7,
+    fan_blade_count=73,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=45
@@ -415,7 +415,7 @@ add_laptop(
     temp_silent=38, temp_performance=43, temp_turbo=48,
     chassis_thermal_conductivity=50,  # Plastic
     vent_area=70,
-    fan_blade_count=7,
+    fan_blade_count=106,
     ambient_temp=25,
     heat_pipe_material=205,
     fan_diameter=50
@@ -432,7 +432,7 @@ add_laptop(
     temp_silent=45, temp_performance=50, temp_turbo=55,
     chassis_thermal_conductivity=150,  # Mix of plastic and metal
     vent_area=110,
-    fan_blade_count=9,
+    fan_blade_count=186,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=60
@@ -449,7 +449,7 @@ add_laptop(
     temp_silent=44, temp_performance=49, temp_turbo=54,
     chassis_thermal_conductivity=150,  # Mix of plastic and metal
     vent_area=100,
-    fan_blade_count=9,
+    fan_blade_count=178,
     ambient_temp=25,
     heat_pipe_material=401,
     fan_diameter=60
