@@ -711,7 +711,19 @@ class CustomLoss(tf.keras.losses.Loss):
         total_loss_value = data_loss + self.alpha * phys_loss
         return total_loss_value
 
-batch_size = 16
+
+
+# Define optimizer and batch size before preparing datasets
+optimizer = optimizers.Adam(learning_rate=0.001)
+batch_size = 16  # Moved batch_size definition above dataset preparation
+epochs = 500
+train_losses = []
+val_losses = []
+
+# Early stopping parameters
+best_val_loss = np.inf
+patience = 20
+patience_counter = 0
 
 # Prepare the datasets
 train_dataset = tf.data.Dataset.from_tensor_slices((X_train_scaled, y_train_scaled))
@@ -722,18 +734,7 @@ val_dataset = val_dataset.batch(batch_size)
 
 
 
-optimizer = optimizers.Adam(learning_rate=0.001)
-
-epochs = 500
-train_losses = []
-val_losses = []
-
 alpha = 0.01  # Adjust alpha as needed
-
-# Early stopping parameters
-best_val_loss = np.inf
-patience = 20
-patience_counter = 0
 
 for epoch in range(epochs):
     epoch_loss = 0
@@ -845,8 +846,8 @@ input_features = [
 
 # New design input with all required features
 new_design = pd.DataFrame({
-    'cpu_tdp': [30],
-    'gpu_tdp': [50],
+    'cpu_tdp': [35],
+    'gpu_tdp': [85],
     'total_tdp': [35 + 85],            # 120
     'cooling_capacity': [3 + 2],       # 5
     'chassis_thermal_conductivity': [150],  # Mix of plastic and metal
