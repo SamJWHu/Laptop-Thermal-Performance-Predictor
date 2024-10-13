@@ -846,13 +846,13 @@ input_features = [
 
 # New design input with all required features
 new_design = pd.DataFrame({
-    'cpu_tdp': [35],
-    'gpu_tdp': [85],
+    'cpu_tdp': [30],
+    'gpu_tdp': [50],
     'total_tdp': [35 + 85],            # 120
     'cooling_capacity': [3 + 2],       # 5
     'chassis_thermal_conductivity': [150],  # Mix of plastic and metal
     'vent_area': [100],                # Estimated in cm²
-    'fan_blade_count': [9],            # Typical number of blades
+    'fan_blade_count': [168],            # Typical number of blades
     'ambient_temp': [25],              # Standard room temperature
     'heat_pipe_material': [401],       # Copper thermal conductivity
     'fan_diameter': [60]               # In mm
